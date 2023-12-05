@@ -1,0 +1,4 @@
+div, section{
+    min-height: 50px;
+    border: 1px solid #000;
+}

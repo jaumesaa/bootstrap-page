@@ -1,0 +1,344 @@
+div, section{
+    min-height: 50px;
+/*    border: 1px solid #000; */
+}
+.body{
+  background-color: #F9F9FB;
+}
+
+
+.espai-gros{
+  margin-top: 40rem;
+}
+
+@media screen and (max-width: 995px) {
+  .reading_list_responsive{
+    display: block!important;
+  }
+  .reading_list_no_responsive{
+    display: none!important;
+  }
+  .responsive_out{
+    display: none!important;
+  }
+
+  
+}
+@media screen and (min-width: 995px) {
+  .reading_list_responsive{
+    display: none!important;
+  }
+  .reading_list_no_responsive{
+    display: flex!important;
+  }
+  .responsive_out{
+    display: block!important;
+  }
+  
+}
+
+.text_carro{
+  color: #000;
+  background-color: white;
+}
+
+
+.nav-link{
+  padding: 0;
+
+}
+.nav-item{
+  
+  margin: 0 1.5rem;
+}
+.tot{
+  background-color: #F9F9FB;
+}
+.miau{
+    
+    background-color: #FF5480;
+    padding: 0.2rem 0.6rem;
+
+}
+.foto1 {
+    background-image: url(foto1.jpg); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* La imagen se ajustará al tamaño del div */
+    background-position: center; /* La imagen se centrará dentro del div */
+    border: 1px solid #000; /* Puedes agregar un borde si lo deseas */
+  }
+.foto2 {
+/*    width: 40rem; */
+    background-image: url(foto1.png); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* La imagen se ajustará al tamaño del div */
+    background-position: center; /* La imagen se centrará dentro del div */
+    border: 1px solid #000; /* Puedes agregar un borde si lo deseas */
+  }
+.lupa_nav{
+  
+}
+.new_naveg{
+  color: white;
+  margin-bottom: 1rem;
+}
+.data{
+    font-size: 13px;
+    color: gray;
+    min-height: 24px;
+}
+.titolnew{
+  font-size: 13px;
+  font-weight: bold;
+
+}
+.bold{
+  font-weight: bold;
+}
+.negre{
+  color: black;
+}
+.fotopopular{
+  background-image: url(../assets/svg/popular/1.svg);
+}
+.fotorandom{
+  background-image: url(../assets/svg/random/1.svg);
+  height: 20rem;
+  width: 50%;
+}
+.linea {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  justify-self: center;
+  justify-items: center;
+}
+.linea-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.fotoessentials {
+  background-image: url(../assets/svg/essentials/1.svg);
+  background-color: rgba(47, 8, 65, 0.7); /* Color morado/púrpura con 40% de opacidad */
+  background-blend-mode: multiply;
+  max-height: 22rem;
+  
+}
+.foto_popular_home{
+  background-image: url(../assets/svg/popular/1.svg);
+  background-color: rgba(47, 8, 65, 0.7); /* Color morado/púrpura con 40% de opacidad */
+  background-blend-mode: multiply;
+  max-height: 22rem;
+}
+.foto_intro_home{
+  background-color: rgb(131, 67, 161); /* Color morado/púrpura con 40% de opacidad */
+  background-blend-mode: multiply;
+}
+
+
+.white{
+  color: white;
+}
+.gris{
+  color: gray;
+}
+.rosa{
+  color: #FF5480;
+
+}
+.bytom{
+
+}
+.titolprimer{
+
+  font-size: 25px;
+}
+.desc_home{
+
+}
+.new_home{
+  font-size: 20px;
+}
+.van_home{
+  font-size: 14px;
+}
+
+.reading_list_home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  display: flex;
+  align-items: center;
+}
+
+.foto {
+  width: 12rem;
+}
+
+.texto_bajo_foto_home {
+  text-align: center;
+}
+
+
+.contenedor-fletxa {
+  align-self: flex-start; /* Alinea el contenedor-fletxa en la parte superior del contenedor-padre */
+
+  position: relative;
+  max-width: 5rem;
+  height: auto;
+}
+
+.text_essentials_home{
+  margin-top: -10%;
+}
+
+.marco_fletxa {
+  width: 50%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.fletxa {
+  position: relative;
+  top: 50%;
+  transform: translate(-140%, -28%);
+  width: 28%; 
+  height: auto; 
+}
+.xs{
+  font-size: 15px;
+}
+.titols_popular_home{
+  margin-top: 10%;
+  color: gray;
+  font-size: 14px;
+  max-height: 1rem;
+}
+.dedic_tit_pop_home{
+  font-weight: bold;
+  font-size: 18px;
+}
+.bytom_random{
+
+}
+.bytom_random {
+  color: black; /* Establece el color del texto principal */
+}
+
+.gray-text {
+  color: gray; /* Establece el color del texto gris */
+  margin: 0 5px; /* Ajusta el espacio entre las palabras grises y el texto principal según tus preferencias */
+}
+.titol_random{
+  font-size: 30px;
+}
+.semi-bold{
+  font-weight: 600;
+}
+.userresearch_random{
+  font-size: 16px;
+}
+.titol1random{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.titol_essen_home{
+  font-size: 30px;
+}
+.va_essentials_home{
+  margin-right: 0;
+  align-self: flex-end;
+  padding-top: 10%;
+}
+.contenedor_va{
+  display: flex;
+  justify-content: flex-end;
+}
+.tit_essentials_home{
+  margin-right: 0;
+  align-self: flex-end;
+  padding-top: 1%;
+}
+.contenedor_view_all_essentials_home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.xss{
+  font-size: 13px;
+}
+.gris-claret{
+  color: rgb(155, 150, 150);
+}
+.foto-final-home{
+  width: 32rem;
+}
+.finalll {
+  margin-top: 1rem;
+  margin-bottom: 1REM;
+  background-color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-column {
+  display: flex;
+  align-items: center;
+}
+
+.iconos_final_home {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.iconos_final_home i {
+  margin: 0;
+}
+.nav-column-allr {
+  display: flex;
+  align-items: end;
+}
+.allr_final_home{
+  margin-left: 40%;
+}
+.logo_final_home{
+  width: 5rem;
+}
+.espai{
+  margin-top: 0.70rem;
+  margin-bottom: 0.70rem;
+}
+/* Fondo blanco */
+.bg-white {
+  background-color: #fff;
+}
+
+/* Bordes redondeados */
+.rounded_j {
+  
+  border-radius: 0.25rem; /* Puedes ajustar este valor según la cantidad de redondeo que desees */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 15rem;
+  height: 8rem;
+}
+.rounded_d {
+  
+  border-radius: 0.50rem; /* Puedes ajustar este valor según la cantidad de redondeo que desees */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.minititolessen{
+  max-height: 2rem;
+  
+}
+.tuifreeess{
+  margin-left: 1rem;
+  
+}
+.tutwebessen{
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
